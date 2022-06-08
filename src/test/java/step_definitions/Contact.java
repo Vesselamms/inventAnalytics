@@ -47,7 +47,7 @@ public class Contact {
     public void the_user_should_see_the_page_title_as(String PageTitle) {
 
         String ActualPageTitle=Driver.get().getTitle();
-        assertEquals(PageTitle,ActualPageTitle);
+       assertEquals(PageTitle,ActualPageTitle);
 
     }
 

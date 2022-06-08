@@ -1,6 +1,7 @@
 Feature: Contacts page
 
 
+
   Scenario:Verify Page Title
     Given the user is on the main page
     When the user navigates to "Contacts"
